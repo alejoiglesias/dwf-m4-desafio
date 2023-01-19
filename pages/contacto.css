@@ -1,0 +1,152 @@
+.contact__container {
+  background-color: #13171c;
+
+  height: 989px;
+
+  padding: 0px 31px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 39px;
+}
+
+@media (min-width: 960px) {
+  .contact__container {
+    height: 893px;
+
+    padding-top: 147px;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: unset;
+    row-gap: unset;
+    column-gap: 40px;
+  }
+}
+
+.contact__title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 80px;
+  color: #ffffff;
+
+  margin: 0px;
+}
+
+@media (min-width: 1216px) {
+  .contact__title {
+    font-size: 64px;
+  }
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+@media (min-width: 1216px) {
+  .contact__form {
+    row-gap: 24px;
+
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+.contact__fields {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+@media (min-width: 960px) {
+  .contact__fields {
+    flex-direction: row;
+    row-gap: unset;
+    column-gap: 24px;
+  }
+}
+
+.contact__field {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.contact__label {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #eeeeee;
+}
+
+.contact__input {
+  color: white;
+
+  background-color: rgba(57, 62, 70, 0.5);
+
+  width: 100%;
+  height: 59px;
+
+  padding: 16px 0px 16px 24px;
+
+  border-radius: 16px;
+  border-style: none;
+}
+
+.contact__input::placeholder {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(238, 238, 238, 0.5);
+}
+
+.contact__textarea {
+  color: white;
+
+  background-color: rgba(57, 62, 70, 0.5);
+
+  width: 100%;
+  height: 280px;
+
+  padding: 16px 256px 16px 24px;
+
+  border-radius: 16px;
+  border-style: none;
+
+  resize: none;
+}
+
+.contact__button {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+
+  background-color: #00adb5;
+
+  width: 100%;
+  height: 55px;
+
+  border-radius: 24px;
+  border-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+@media (min-width: 960px) {
+  .contact__button {
+    max-width: 231px;
+  }
+}

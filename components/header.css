@@ -1,0 +1,103 @@
+.header__container {
+  background-color: #13171c;
+
+  height: 114px;
+
+  padding: 0px 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .header__container {
+    height: 121px;
+
+    padding: 0px 84px;
+  }
+}
+
+.header__logo {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #eeeeee;
+}
+
+@media (min-width: 769px) {
+  .header__burger {
+    display: none;
+  }
+}
+
+.header__window {
+  background-color: #000000;
+
+  min-width: 375px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  display: none;
+}
+
+.header__close {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.header__menu {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__page {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 96px;
+  text-align: center;
+  color: #eeeeee;
+
+  text-decoration: none;
+}
+
+.header__sections {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .header__sections {
+    display: flex;
+    justify-content: center;
+    column-gap: 42px;
+  }
+}
+
+.header__section {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .header__section {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #eeeeee;
+
+    display: inherit;
+
+    text-decoration: none;
+  }
+}
