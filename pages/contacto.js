@@ -46,6 +46,8 @@
     };
 
     sendData(body);
+
+    formEl.reset();
   });
 })();
 
